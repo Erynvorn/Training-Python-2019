@@ -36,5 +36,7 @@ for amerFile in os.listdir('.'):
     print(yearPart)
     print(afterPart)
 #TODO : form the European style filename
+    euroFilename = beforePart + dayPart + '-' + monthPart + '-' + yearPart + afterPart
+    print(euroFilename)
 #TODO : Get the full absolute file paths
 #TODO : Rename the files
