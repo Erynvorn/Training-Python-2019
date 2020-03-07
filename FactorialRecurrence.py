@@ -14,4 +14,4 @@ def fact(n,t):
         return fact(n,t)
     return t
 
-factorial(50)
+factorial(500)
