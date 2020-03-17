@@ -14,3 +14,6 @@ print(len(elems))
 print(type(elems[0]))
 auth = elems[0].getText()
 print(auth)
+print(str(elems[0]))
+print(elems[0].attrs)
+
