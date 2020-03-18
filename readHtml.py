@@ -17,3 +17,6 @@ print(auth)
 print(str(elems[0]))
 print(elems[0].attrs)
 
+pElems = exampleSoup.select('p')
+print(str(pElems[0]))
+
