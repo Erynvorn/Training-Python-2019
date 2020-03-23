@@ -4,9 +4,8 @@ i = 5
 def numeralRotate(input):
     last = input % 10
     lon = math.log(input,10)
-    # print(str(last)+'  ' + str(lon))
     lon = round(lon-0.5,0)
-    ret = (input - input % 10)/10 + math.pow(10,lon)*(input % 10 )
+    ret = (input - last )/10 + math.pow(10,lon)*(last)
     return ret
 
 while True:
