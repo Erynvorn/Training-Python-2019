@@ -1,5 +1,5 @@
 import math
-i = 5
+i = 1469036001
 
 def numeralRotate(input):
     last = input % 10
@@ -18,6 +18,8 @@ while True:
               
 
 # 526  --> 652
+
+#rnge 1-10, 11-100 10001-100000
 
 
 
