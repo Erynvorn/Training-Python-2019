@@ -19,8 +19,9 @@ while True:
 
 # 526  --> 652
 
-#rnge 1-10, 11-100 10001-100000
+#rnge 1-10, 11-100 10001-100000  math.pow = constant may speed up the calc
 
+#idea to speed up
 
 
 
