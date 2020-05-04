@@ -12,11 +12,11 @@ logging.basicConfig(level=logging.DEBUG, format = ' %(asctime)s - %(levelname)s 
 logging.debug('Start of program')
 
 def factorial(n):
-    logging.debug('Start of program(%s%%)' %(n))
+    logging.debug('Start of fact(%s%%)' %(n))
     n += 2
     return n
 
-loggin.debug('End of program')
+logging.debug('End of program')
 
 
-
+print(factorial(10))
