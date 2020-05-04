@@ -10,7 +10,7 @@ def boxPrint(symbol, width, height):
         print(symbol + (' ' * (width - 2))+ symbol)
     print(symbol * width)
 
-for sym, w, h in (('*',4,4),('O',20,5),('X',1,3),('CC',3,6)):
+for sym, w, h in (('*',4,4),('O',20,5),('X',1,3),('CCC',3,6)):
     try:
         boxPrint(sym,w,h)
     except Exception as err:
