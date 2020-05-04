@@ -7,8 +7,6 @@ print(myPath)
 
 
 helloFile = open('hello.txt','w')
-
-helloFile= open('hello.txt','a')
 for file in os.listdir('.'):
     helloFile.write(file)
     helloFile.write(' '+str(os.path.getsize(os.path.join(myPath,file))))
