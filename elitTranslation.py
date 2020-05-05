@@ -7,4 +7,5 @@ def cypher(string):
         cont += translation.get(i, i)
     return cont
 
+
 print(cypher('elit'))
