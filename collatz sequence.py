@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # Collatz sequence
 print('Collatz sequence')
 print('Please enter an integer :')
