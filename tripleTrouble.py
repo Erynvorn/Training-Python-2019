@@ -5,3 +5,4 @@ def triple_trouble(one, two, three):
     return ''.join(ret)
     #your code here
 
+quy12
