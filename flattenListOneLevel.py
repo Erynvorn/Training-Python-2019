@@ -9,6 +9,5 @@ def flatten(lst):
 
 #flatten one level list
 
-from itertools import chain
-def flatten_and_sort(array):
-    return sorted((chain(*array)))
+def flatten(lst):
+    return sum(([i] if not isinstance(i, list) else i for i in lst), [])
