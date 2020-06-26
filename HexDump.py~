@@ -1,0 +1,32 @@
+def hexdump(data):
+    l = (len(data))
+    sol=[]
+    sol2 = []
+    sol3 = []
+    ret=''
+    rows = l//17+1
+    lastrow = l %16
+    for i in range(rows) : 
+        sol.append(('{:08X}'.format(i*16))+': ')
+    print(sol)
+    for i in data :
+        sol2.append(('{:02x}'.format(i))+' ')
+    print(sol2)
+    for i in data :
+        if i in range(32,126) : 
+            sol3.append(chr(i))
+        else : sol3.append('.')
+    print(sol3)
+    for i in range(rows) :
+        ret += sol[i]
+        for j in range(16*i,16*(i+1)) :
+            ret+= sol2[j]
+        ret += ' '
+        for k in range(16*i,16*(i+1)) :
+            ret+= sol3[k]
+    return ret
+        
+def dehex(text):
+    pass
+
+#need to treat length of last segment.
