@@ -1,0 +1,16 @@
+def isogram_encode(inp, key):
+    input=str(inp)
+    if (input.isdecimal() == True):
+        ret=''
+        for i in input: ret += (key[(int(i)+9) % 10])
+        return ret
+    else: return 'Incorrect key or input!'
+
+def isogram_decode(input, key):
+    nu = '1234567890'
+    ret=''
+    if input.alpha() == True :
+        for i in input: ret += nu[key.index(i)]
+        return ret
+    else: return 'Incorrect key or input!'
+    pass
