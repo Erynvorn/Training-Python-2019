@@ -1,0 +1,10 @@
+def to_bits(string):
+    ll = string.split("\n")
+    sol=[]
+    i=0
+    while i < 5000 :
+        sol.append(0)
+        i += 1
+    for i in ll :
+        sol[int(i)] = 1
+    return sol
