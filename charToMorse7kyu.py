@@ -8,6 +8,7 @@ def encryption(string):
             ret.append(CHAR_TO_MORSE[i])
     return ' '.join(ret)
 
+
 Dictionary:
 
     {'0': '-----', '1': '.----', '2': '..---', '3': '...--',
